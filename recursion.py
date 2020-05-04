@@ -39,7 +39,7 @@ def compareTo(s1, s2):
 
 # TESTING
 
-print(fibonnaci(10))
+print(fibonnaci(7))
 print (gcd(60, 48))
 print(compareTo("bd", "bc"))
 
