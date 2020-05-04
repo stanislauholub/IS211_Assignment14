@@ -7,10 +7,12 @@
 # PART I - IMPLEMENT THE FIBONNACI SEQUENCE
 
 def fibonnaci(n):
-    if n <= 1:
-        return n
+    if n == 1 or n == 2:
+        return 1
+    elif n <= 1:
+        exit()
     else:
-        return(fibonnaci(n - 1) + fibonnaci(n - 2))
+        return fibonnaci(n - 1) + fibonnaci(n - 2)
 
 
 # PART II - IMPLEMENT EUCLID’S GCD ALGORITHM
@@ -37,7 +39,7 @@ def compareTo(s1, s2):
 
 # TESTING
 
-print(fibonnaci(7))
+print(fibonnaci(10))
 print (gcd(60, 48))
 print(compareTo("bd", "bc"))
 
